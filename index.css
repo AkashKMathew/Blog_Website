@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.cs66_container {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.cs66_header-div {
+  background-color: #595959;
+  color: #fff;
+  padding: 10px;
+}
+
+.cs66_main-div {
+  padding: 20px;
+}
+#cs66_blog-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+#cs66_add-blog {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: none;
+  background-color: #fff;
+  color: #333;
+}
+#cs66_add-blog:hover {
+  box-shadow: 4px 4px 20px 0 rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+.cs66_card {
+  background-color: #cccccc81;
+  color: #272525a9;
+  width: 20vw;
+  height: 40vh;
+  overflow: scroll;
+  padding: 2vw;
+  margin: 2vw;
+  border-radius: 30px;
+  box-shadow: 8px 8px 5px 0 rgba(0, 0, 0, 0.13);
+}
+.cs66_card-head {
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-align: center;
+}
+.cs66_card:hover {
+  scale: 1.01;
+}
+.cs66_btn-div {
+  width: 100%;
+  text-align: right;
+}
+.cs66_delete-blog,
+.cs66_edit-blog {
+  border: none;
+  background-color: transparent;
+  bottom: 0;
+}
+.cs66_delete-i,
+.cs66_edit-i {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  mix-blend-mode: darken;
+}
+.cs66_card-title {
+  font-size: 1.3vw;
+  font-weight: bold;
+  text-align: center;
+}
+.cs66_card-content {
+  color: #333;
+  font-size: 1vw;
+  text-align: justify;
+}
+.cs66_card-footer {
+  font-size: 1vw;
+  text-align: right;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+@media only screen and (max-width: 1024px) {
+  .cs66_card {
+    width: 30vw;
+    height: 40vh;
+  }
+  .cs66_card-title {
+    font-size: 2vw;
+  }
+  .cs66_card-content {
+    font-size: 1.4vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .cs66_card {
+    width: 50vw;
+    height: 40vh;
+  }
+  .cs66_card-title {
+    font-size: 2.5vw;
+  }
+  .cs66_card-content {
+    font-size: 1.8vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .cs66_card {
+    width: 70vw;
+    height: 35vh;
+  }
+  .cs66_card-title {
+    font-size: 4.5vw;
+  }
+  .cs66_card-content {
+    font-size: 3vw;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .cs66_card {
+    width: 80vw;
+    height: 35vh;
+  }
+  .cs66_card-title {
+    font-size: 6vw;
+  }
+  .cs66_card-content {
+    font-size: 4.5vw;
+  }
+}
